@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles in src/style directory are applied to the whole page */
+body {
+  /*background: #0147A7;*/
+  /*color: #fff;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#blockquote-sentence-getter{
+  font-family: 'Kalam', cursive;
+}
+
+#panel-body-sentence-historical{
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+#navbar{
+  margin-top: 10px;
+  background-color: #2c3e50;
+}
+
+#navbar > div > ul > li > a {
+  background-color: #1a242f;
+  color: #fff;
+}
+
+#navbar > div > div > a {
+  color: #fff;
+  font-size: 19px;
+}
+
+#chuck-img{
+  margin-top: 4px;
+}
+
+#sweep-img{
+  margin-top: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}

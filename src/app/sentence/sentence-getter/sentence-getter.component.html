@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <button (click)="get()" type="button control-group" class="btn btn-default btn-block">GET IT
+  	</button>
+    </div>
+    <div class="panel-body text-center">
+        <blockquote id="blockquote-sentence-getter"> {{ sentence }}
+        </blockquote>
+        <footer *ngIf="sentenceRequested"><i>Chuck Norris</i></footer>
+    </div>
+</div>

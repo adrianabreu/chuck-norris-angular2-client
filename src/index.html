@@ -1,14 +1,32 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>ChuckNorrisAngular2Client</title>
   <base href="/">
-
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-  <app-root>Loading...</app-root>
+  <div class="container">
+    <!-- navbar component -->
+    <nav class="navbar navbar-default" id="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Chuck Norris Angular (2) Client</a>
+          <img src="assets/chuck.png" class="navbar-left img-responsive" id="chuck-img">
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#/sentence">Sentence</a></li>
+        </ul>
+      </div>
+    </nav>
+    <app-root>Loading...</app-root>
+  </div>
 </body>
+
 </html>
