@@ -6,7 +6,7 @@ This project is a rebuild of the [old angular-chuck client](https://github.com/a
 
 # Try live! 
 
-[https://adrianabreu/chuck-norris-angular2-client](https://adrianabreu/chuck-norris-angular2-client)
+[http://adrianabreu.com/chuck-norris-angular2-client](http://adrianabreu.com/chuck-norris-angular2-client)
 
 # Screenshots
 
