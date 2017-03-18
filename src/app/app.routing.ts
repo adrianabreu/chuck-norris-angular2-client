@@ -2,8 +2,7 @@ import { Routes } from '@angular/router';
 
 export const appRoutes: Routes = [
     {
-        path: '',
-        redirectTo: '/sentence',
-        pathMatch: 'full'
+        path: '**',
+        redirectTo: '/sentence'
     }
 ]
